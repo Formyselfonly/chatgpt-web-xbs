@@ -29,8 +29,8 @@ export default {
   },
   chat: {
     newChatButton: '新建聊天',
-    placeholder: '来说点什么吧...（Shift + Enter = 换行，"/" 触发提示词）',
-    placeholderMobile: '来说点什么...',
+    placeholder: '跟熊博士对话吧...（按"/" 触发提示词,按Shift + Enter换行）',
+    placeholderMobile: '跟熊博士对话吧...',
     copy: '复制',
     copied: '复制成功',
     copyCode: '复制代码',
@@ -52,9 +52,9 @@ export default {
   },
   setting: {
     setting: '设置',
-    general: '总览',
-    advanced: '高级',
-    config: '配置',
+    general: '用户',
+    advanced: '参数设置',
+    config: '开源代码提供者',
     avatarLink: '头像链接',
     name: '名称',
     description: '描述',
@@ -74,7 +74,7 @@ export default {
     monthlyUsage: '本月使用量',
   },
   store: {
-    siderButton: '提示词商店',
+    siderButton: '提示词获取',
     local: '本地',
     online: '在线',
     title: '标题',
