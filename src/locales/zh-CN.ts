@@ -54,7 +54,7 @@ export default {
     setting: '设置',
     general: '用户',
     advanced: '参数设置',
-    config: '开源代码提供者',
+    config: '开源提供者',
     avatarLink: '头像链接',
     name: '名称',
     description: '描述',
