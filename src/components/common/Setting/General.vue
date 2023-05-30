@@ -20,11 +20,11 @@ const theme = computed(() => appStore.theme)
 
 const userInfo = computed(() => userStore.userInfo)
 
-const avatar = ref(userInfo.value.avatar ?? '')
+const avatar = ref(userInfo.value.avatar ?? 'src\assets\avatar.jpg')
 
-const name = ref(userInfo.value.name ?? '')
+const name = ref(userInfo.value.name ?? 'XBS')
 
-const description = ref(userInfo.value.description ?? '')
+const description = ref(userInfo.value.description ?? '玩的开心!')
 
 const language = computed({
   get() {
